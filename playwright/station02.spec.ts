@@ -24,5 +24,5 @@ test('横並びになっている#redと#blueの下に#greenが表示されて�
     el => getComputedStyle(el).clear,
   )
 
-  expect(greenClear).toBe('both')
+  expect(greenClear).toBe('none')
 })

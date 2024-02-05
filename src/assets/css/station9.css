@@ -1,0 +1,14 @@
+#animation {
+  animation: fade-in 5s;
+  animation-fill-mode: forwards;
+  background-color: aliceblue;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

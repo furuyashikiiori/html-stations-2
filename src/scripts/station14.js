@@ -1,0 +1,3 @@
+function buttonclick() {
+  alert("ECMAScript");
+}
